@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Header from './features/header/Header';
 
 function CollapseBox({title, description}) {
   const [open, setOpen] = useState(false)
@@ -43,6 +44,7 @@ function App() {
   )
   return (
     <div className="text-center">
+      <Header/>
       <div className='bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white text-4xl gap-10'>
         <div className='text-5xl'>
           Welcome to my Portfolio!
