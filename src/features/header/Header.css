@@ -1,23 +1,31 @@
 img {
-    border: 5px solid #1C6EA4;
+    border: 5px solid #2080c1;
     box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.25);
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    transition: border-color 1s ease, box-shadow 1s ease;
 }
-.header-main{
-    background-color: #003e81;
+
+img:hover {
+    border-color: aqua;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.5);
+}
+
+.header-main {
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:4rem;
+    gap: 4rem;
 }
-.header-message{
+
+.header-message {
     font-size: 3rem;
 }
 
-.header-photo{
+.header-photo {
     display: flex;
     align-content: center;
+    gap: 0.4em;
 }

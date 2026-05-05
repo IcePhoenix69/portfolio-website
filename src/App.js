@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './features/header/Header';
+import Navbar from './features/navbar/Navbar';
 
-function CollapseBox({title, description}) {
+function CollapseBox({ title, description }) {
   const [open, setOpen] = useState(false)
   return (
     <>
@@ -44,13 +45,11 @@ function App() {
   )
   return (
     <div className="text-center">
-      <Header/>
-      <div className='bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white text-4xl gap-10'>
-        <div className='text-5xl'>
-          Welcome to my Portfolio!
-        </div>
-        <CollapseBox title={title1} description={stringa1}/>
-        <CollapseBox title={title2} description={text_2}/>
+      <Header />
+      <Navbar />
+      <div className='min-h-screen flex flex-col items-center justify-center text-white text-4xl gap-10'>
+        <CollapseBox title={title1} description={stringa1} />
+        <CollapseBox title={title2} description={text_2} />
       </div>
     </div>
   );

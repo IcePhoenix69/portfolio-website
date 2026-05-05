@@ -3,14 +3,17 @@ import human from "../../assets/profile-image.jpg"
 import "./Header.css"
 
 function Header() {
+    const headerClass = "header-main";
+    const headerMessage = "header-message";
+    const headerPhoto = "header-photo";
     return (
-        <header class="header-main">
-            <h1 class="header-message">
+        <header className={headerClass}>
+            <h1 className={headerMessage}>
                 Welcome to my Portfolio!
             </h1>
-            <div class="header-photo">
-                <img src={human} alt="Human profile"/>
-                <img src={pippi} alt="Cat profile"/>
+            <div className={headerPhoto}>
+                <img src={human} alt="Human profile" />
+                <img src={pippi} alt="Cat profile" />
             </div>
         </header>
     )

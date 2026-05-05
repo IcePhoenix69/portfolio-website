@@ -1,0 +1,78 @@
+.navbar-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    list-style-type: none;
+}
+
+.navbar-list-element {
+    background: linear-gradient(145deg,
+            var(--background-navbar-list-element-color-start) 0%,
+            var(--background-navbar-list-element-color-mid) 50%,
+            var(--background-navbar-list-element-color-end) 100%);
+    font-size: 1.5em;
+    padding: 0;
+    border: 5px outset rgb(19, 19, 124);
+    border-radius: 30px;
+    min-width: fit-content;
+    overflow: hidden;
+    transition:
+        --background-navbar-list-element-color-start 400ms ease,
+        --background-navbar-list-element-color-mid 400ms ease,
+        --background-navbar-list-element-color-end 400ms ease,
+        border 0.2s ease;
+}
+
+.navbar-list-element:hover {
+    --background-navbar-list-element-color-start: #10b1e2;
+    --background-navbar-list-element-color-mid: #238acf;
+    --background-navbar-list-element-color-end: #0d49ca;
+}
+
+.navbar-list-element:active {
+    background: linear-gradient(270deg, #0EA0CE 0%, #1C6EA4 50%, #093BA8 100%);
+    border: 5px inset rgb(19, 19, 124);
+}
+
+.navbar-list-element a {
+    padding: 0.3em 3em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-home {
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    font-size: 1.5em;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navbar-home a {
+    padding: 0.3em 1.5em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}

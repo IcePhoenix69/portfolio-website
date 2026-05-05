@@ -3,10 +3,30 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com');
 
+@property --background-navbar-list-element-color-start {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #0EA0CE;
+}
+
+@property --background-navbar-list-element-color-mid {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #1C6EA4;
+}
+
+@property --background-navbar-list-element-color-end {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #093BA8;
+}
+
+
 body {
   margin: 0;
   font-family: 'EB Garamond', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #3294b8;
+  background: linear-gradient(180deg, rgba(50, 148, 184, 1) 0%, rgba(47, 73, 161, 1) 50%, rgba(31, 22, 107, 1) 100%);
 }
-
