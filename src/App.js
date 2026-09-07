@@ -9,6 +9,8 @@ import Resume from './features/main_section/Resume'
 import Projects from './features/main_section/Projects'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// Marked for removal
+// TODO: Transfer the material into the appropriate section
 function CollapseBox({ title, description }) {
   const [open, setOpen] = useState(false)
   return (
@@ -34,6 +36,7 @@ function CollapseBox({ title, description }) {
   )
 }
 
+// TODO: remove the unnecessary material and transfer it into the appropriate section
 function App() {
   const title1 = "Let's talk about myself for a moment:"
   const stringa1 = "I'm a new FSD (Full Stack Developer) from Refresh Academy. For six long month, since 27/01/2025 to 25/07/2025, i'm learning how to be a Web developer for Front-End and Back-End projects. Most of my project are not done in this repo, because i had to work with my teams, but i want to publish them here (when i have time)."
@@ -73,3 +76,4 @@ function App() {
 }
 
 export default App;
+// TODO: Use the special effects to change the basic layout, from changing buttons to introduce the torch effect.

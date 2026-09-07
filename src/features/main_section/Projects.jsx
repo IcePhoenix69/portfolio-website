@@ -6,3 +6,4 @@ function Projects() {
     )
 }
 export default Projects;
+// TODO: Create the card with the selector of the project chosen and the card for the description of said project

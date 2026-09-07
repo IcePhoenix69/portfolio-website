@@ -20,3 +20,4 @@ function Header() {
 }
 
 export default Header;
+// TODO: Use the libraries for effect to decorate it

@@ -4,3 +4,4 @@ function Resume() {
     </>)
 }
 export default Resume;
+// TODO: Research a PDF Visualizer for React and apply here, then add the correct resume

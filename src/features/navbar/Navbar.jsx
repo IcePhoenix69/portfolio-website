@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css"
 
+// TODO: Update correcly the font, the gradient and the special effects, use graphics libraries in thing-to-remember.txt
 function Navbar() {
     const navbarMain = "navbar-main"
     const navbarList = "navbar-list";
