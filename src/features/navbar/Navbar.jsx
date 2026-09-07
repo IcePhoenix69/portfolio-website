@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 function Navbar() {
@@ -9,22 +10,22 @@ function Navbar() {
         <nav className={navbarMain}>
             <ul className={navbarList}>
                 <li className={navbarElement}>
-                    <a href="#myself">Myself</a>
+                    <Link to="/myself">Myself</Link>
                 </li>
                 <li className={navbarElement}>
-                    <a href="#skills">My Skills</a>
+                    <Link to="/skills">My Skills</Link>
                 </li>
                 
                 {/* Il bottone centrale Home */}
                 <li className={navbarHome}>
-                    <a href="#home">Home</a>
+                    <Link to="/homepage">Home</Link>
                 </li>
                 
                 <li className={navbarElement}>
-                    <a href="#resume">My Resume</a>
+                    <Link to="/resume">My Resume</Link>
                 </li>
                 <li className={navbarElement}>
-                    <a href="#projects">My Projects</a>
+                    <Link to="/projects">My Projects</Link>
                 </li>
             </ul>
         </nav>
