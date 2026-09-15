@@ -5,15 +5,16 @@ import "./Header.css"
 function Header() {
     const headerClass = "header-main";
     const headerMessage = "header-message";
-    const headerPhoto = "header-photo";
+    const headerPhotoGroup = "header-photo-group";
+    const headerPhotoSingle = "header-photo-single";
     return (
         <header className={headerClass}>
             <h1 className={headerMessage}>
                 Welcome to my Portfolio!
             </h1>
-            <div className={headerPhoto}>
-                <img src={human} alt="Human profile" />
-                <img src={pippi} alt="Cat profile" />
+            <div className={headerPhotoGroup}>
+                <img src={human} alt="Human profile" className={headerPhotoSingle} />
+                <img src={pippi} alt="Cat profile" className={headerPhotoSingle} />
             </div>
         </header>
     )

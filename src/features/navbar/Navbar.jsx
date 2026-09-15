@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import "./Navbar.css"
 
 // TODO: Update correcly the font, the gradient and the special effects, use graphics libraries in thing-to-remember.txt
@@ -11,22 +11,22 @@ function Navbar() {
         <nav className={navbarMain}>
             <ul className={navbarList}>
                 <li className={navbarElement}>
-                    <Link to="/myself">Myself</Link>
+                    <NavLink to="/myself">Myself</NavLink>
                 </li>
                 <li className={navbarElement}>
-                    <Link to="/skills">My Skills</Link>
+                    <NavLink to="/skills">My Skills</NavLink>
                 </li>
                 
                 {/* Il bottone centrale Home */}
                 <li className={navbarHome}>
-                    <Link to="/homepage">Home</Link>
+                    <NavLink to="/homepage">Home</NavLink>
                 </li>
                 
                 <li className={navbarElement}>
-                    <Link to="/resume">My Resume</Link>
+                    <NavLink to="/resume">My Resume</NavLink>
                 </li>
                 <li className={navbarElement}>
-                    <Link to="/projects">My Projects</Link>
+                    <NavLink to="/projects">My Projects</NavLink>
                 </li>
             </ul>
         </nav>

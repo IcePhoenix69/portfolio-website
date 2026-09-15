@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com');
 
 @property --background-navbar-list-element-color-start {
     syntax: '<color>';
@@ -21,12 +20,14 @@
     initial-value: #093BA8;
 }
 
-
 body {
-  margin: 0;
-  font-family: 'EB Garamond', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #3294b8;
-  background: linear-gradient(180deg, rgba(50, 148, 184, 1) 0%, rgba(47, 73, 161, 1) 50%, rgba(31, 22, 107, 1) 100%);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #3294b8;
+    background: linear-gradient(180deg, rgba(50, 148, 184, 1) 0%, rgba(47, 73, 161, 1) 50%, rgba(31, 22, 107, 1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
