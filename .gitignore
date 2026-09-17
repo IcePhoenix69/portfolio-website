@@ -22,3 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 things-to-remember.txt
+/.idea/modules.xml
+/src/assets/fonts/OFL.txt
+/.idea/portfolio-website.iml
+/.idea/dictionaries/project.xml
+/src/assets/fonts/README.txt
+/.idea/vcs.xml
