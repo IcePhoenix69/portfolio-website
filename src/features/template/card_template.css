@@ -1,0 +1,40 @@
+/* CardTemplate.css */
+
+.card-template {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* Header interno della card */
+.card-template__header {
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-template__header h2 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 1.5rem;
+}
+
+/* Corpo della card: separa automaticamente i vari frammenti di testo o div interni */
+.card-template__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* Spazio fisso tra un elemento e l'altro */
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Stile opzionale per formattare singoli frammenti di testo/sezioni */
+.card-template__body p,
+.card-template__body .card-section {
+    margin: 0;
+}

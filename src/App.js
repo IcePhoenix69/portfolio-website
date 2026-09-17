@@ -11,7 +11,7 @@ function App() {
     return (
         <>
             <div className="">
-                <Router>
+                <Router basename={process.env.PUBLIC_URL}>
                     <Routes>
                         <Route path="/" element={<MainLayout/>}>
                             <Route index element={<Homepage/>}/>
@@ -20,7 +20,8 @@ function App() {
                             <Route path="skills" element={<Skills/>}/>
                             <Route path="projects" element={<Projects/>}/>
                             <Route path="resume" element={<Resume/>}/>
-                        </Route> </Routes>
+                        </Route>
+                    </Routes>
                 </Router>
             </div>
         </>

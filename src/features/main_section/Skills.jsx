@@ -1,8 +1,22 @@
-function Skills() {
-    return (<>
-        <h2>Hi by Skills</h2>
-    </>)
+import CardTemplate from "../template/card_template";
+
+function SkillsContent() {
+    return (
+        <div>
+            <h2>My Skills</h2>
+            <p>React, JS, CSS</p>
+        </div>
+    )
 }
+
+function Skills() {
+    return (
+        <CardTemplate>
+            <SkillsContent/>
+        </CardTemplate>
+    )
+}
+
 export default Skills;
 // TODO: Add the card with the selector for the skills, divided by soft skill, technical skills and development skills,
 // and then the card to actually render them
