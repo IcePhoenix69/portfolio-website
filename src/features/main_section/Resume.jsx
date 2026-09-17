@@ -1,4 +1,4 @@
-import CardTemplate from "../template/card_template";
+import CardTemplate from "../layout/template/card/card_template";
 
 function ResumeContent(){
     return (

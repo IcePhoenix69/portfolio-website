@@ -1,0 +1,38 @@
+.card_selector {
+    color: black;
+    display: flex;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 1.5rem auto;
+    min-width: fit-content;
+    max-width: 100px;
+    text-align: center;
+}
+
+.card_position {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_position_up {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 16em;
+    flex-direction: row;
+    min-width: fit-content;
+    max-width: 100px;
+}
+
+.card_position_down {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 16em;
+    flex-direction: row;
+    min-width: fit-content;
+    max-width: 100px;
+}

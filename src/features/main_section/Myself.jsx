@@ -1,6 +1,6 @@
 // Myself.jsx
-import "../template/card_template.css"
-import CardTemplate from "../template/card_template";
+import "../layout/template/card/card_template.css"
+import CardTemplate from "../layout/template/card/card_template";
 
 // 1. Contenuto "Nudo" organizzato a frammenti
 export function MyselfContent() {
@@ -34,4 +34,4 @@ export function Myself() {
 }
 
 export default Myself;
-// TODO: Create a card to contain the information, with a selector and different informations
+// TODO: Create a card to contain the information, with a card_selector and different informations

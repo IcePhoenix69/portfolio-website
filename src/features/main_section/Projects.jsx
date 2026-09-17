@@ -1,4 +1,4 @@
-import CardTemplate from "../template/card_template";
+import CardTemplate from "../layout/template/card/card_template";
 
 function ProjectsContent(){
     return (
@@ -29,4 +29,4 @@ function Projects() {
     )
 }
 export default Projects;
-// TODO: Create the card with the selector of the project chosen and the card for the description of said project
+// TODO: Create the card with the card_selector of the project chosen and the card for the description of said project

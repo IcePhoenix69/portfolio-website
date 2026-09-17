@@ -5,7 +5,7 @@ import Skills from './features/main_section/Skills'
 import Resume from './features/main_section/Resume'
 import Projects from './features/main_section/Projects'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import {MainLayout} from "./features/template/MainLayout";
+import {MainLayout} from "./features/layout/MainLayout";
 
 function App() {
     return (

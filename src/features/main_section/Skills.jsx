@@ -1,4 +1,4 @@
-import CardTemplate from "../template/card_template";
+import CardTemplate from "../layout/template/card/card_template";
 
 function SkillsContent() {
     return (
@@ -18,5 +18,5 @@ function Skills() {
 }
 
 export default Skills;
-// TODO: Add the card with the selector for the skills, divided by soft skill, technical skills and development skills,
+// TODO: Add the card with the card_selector for the skills, divided by soft skill, technical skills and development skills,
 // and then the card to actually render them
