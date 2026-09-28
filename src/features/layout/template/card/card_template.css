@@ -15,9 +15,8 @@
 
 /* Header interno della card */
 .card-template__header {
-    border-bottom: 2px solid #f1f5f9;
+    border-bottom: 2px solid dodgerblue;
     padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
 }
 
 .card-template__header h2 {
@@ -28,15 +27,30 @@
 
 /* Corpo della card: separa automaticamente i vari frammenti di testo o div interni */
 .card-template__body {
+    border-left: 2px dodgerblue solid;
+    border-right: 2px dodgerblue solid;
+    border-bottom: 2px dodgerblue solid;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.25rem; /* Spazio fisso tra un elemento e l'altro */
     color: #334155;
     line-height: 1.6;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 360px;
 }
 
 /* Stile opzionale per formattare singoli frammenti di testo/sezioni */
 .card-template__body p,
-.card-template__body .card-section {
+.card-template__body .card_section {
     margin: 0;
+}
+
+.card_section {
+
+}
+
+.card_section_a{
+
 }

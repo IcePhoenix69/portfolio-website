@@ -8,7 +8,7 @@ function ProjectsContent(){
                 Amo creare interfacce pulite e ben strutturate.
             </p>
 
-            <div className="card-section">
+            <div className="card_section">
                 <h3>Un po' di me</h3>
                 <p>Oltre al codice, mi piace la musica e passare il tempo con i miei animali.</p>
             </div>
